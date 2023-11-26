@@ -74,6 +74,12 @@ class WPB_GQB_Plugin_Settings {
                     'type'    => 'select',
                     'options' => wp_list_pluck(get_posts(array( 'post_type' => 'wpcf7_contact_form', 'numberposts' => -1 )), 'post_title', 'ID'),
                 ),
+                array(
+                    'name'      => 'wpb_gqb_force_cf7_scripts',
+                    'label'     => esc_html__( 'Force loading CF7\'s Scripts', 'wpb-get-a-quote-button' ),
+                    'desc'      => esc_html__( 'If you\'re experiencing trouble submitting the popup form, check this.', 'wpb-get-a-quote-button' ),
+                    'type'      => 'checkbox',
+                ),
             ),
             'woo_settings' => array(
                 array(
@@ -120,6 +126,18 @@ class WPB_GQB_Plugin_Settings {
                     'desc'      => esc_html__( 'Show WooCommerce quote button for guest users.', 'wpb-get-a-quote-button' ),
                     'type'      => 'checkbox',
                     'default'   => 'on',
+                ),
+                array(
+                    'name'    => 'wpb_gqb_form_product_info',
+                    'label'   => esc_html__( 'Product information in the form', 'wpb-get-a-quote-button' ),
+                    'desc'    => esc_html__( 'The product informations can be shown or hide.', 'wpb-get-a-quote-button' ),
+                    'type'    => 'select',
+                    'size'    => 'wpb-select-buttons',
+                    'default' => 'hide',
+                    'options' => array(
+                        'hide'    => esc_html__( 'Hide', 'wpb-get-a-quote-button' ),
+                        'show'    => esc_html__( 'Show', 'wpb-get-a-quote-button' ),
+                    )
                 ),
             ),
             'btn_settings' => array(

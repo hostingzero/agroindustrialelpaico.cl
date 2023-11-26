@@ -3,14 +3,11 @@
  * Plugin Name:       Get a Quote Button for WooCommerce
  * Plugin URI:        https://wpbean.com/plugins/
  * Description:       Get a Quote Button for WooCommerce using Contact Form 7. It can be used for requesting a quote, pre-sale questions or query.
- * Version:           1.2.4
+ * Version:           1.3.0
  * Author:            wpbean
  * Author URI:        https://wpbean.com
  * Text Domain:       wpb-get-a-quote-button
  * Domain Path:       /languages
- *
- * WC requires at least: 5.0
- * WC tested up to: 7.0.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly 
@@ -51,7 +48,7 @@ if ( defined( 'WPB_GQB_PREMIUM' ) ) {
 class WPB_Get_Quote_Button {
 
 	//  Plugin version
-	public $version = '1.2.4';
+	public $version = '1.2.8';
 
 	// The plugin url
 	public $plugin_url;
@@ -95,6 +92,10 @@ class WPB_Get_Quote_Button {
 		add_action( 'admin_notices', array( $this, 'wpb_gqb_pro_discount_admin_notice' ) );
 
 		add_action( 'admin_init', array( $this, 'wpb_gqb_pro_discount_admin_notice_dismissed' ) );
+
+		// In case any theme disable the CF7 scripts
+		add_filter( 'wpcf7_load_js', '__return_true', 30 );
+		add_filter( 'wpcf7_load_css', '__return_true', 30 );
 	}
 
 	/**
@@ -155,12 +156,11 @@ class WPB_Get_Quote_Button {
 	// Load the required files
 	function file_includes() {
 		include_once dirname( __FILE__ ) . '/includes/functions.php';
+		include_once dirname( __FILE__ ) . '/includes/class-shortcode.php';
 
 		if ( is_admin() ) {
 			include_once dirname( __FILE__ ) . '/includes/admin/class.settings-api.php';
 			include_once dirname( __FILE__ ) . '/includes/admin/class.settings-config.php';
-		} else {
-			include_once dirname( __FILE__ ) . '/includes/class-shortcode.php';
 		}
 
 		if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
@@ -174,11 +174,12 @@ class WPB_Get_Quote_Button {
 
 	// Initialize the classes
     public function init_classes() {
+    	
+    	new WPB_GQB_Shortcode_Handler();
+
 		if ( is_admin() ) {
             new WPB_GQB_Plugin_Settings();
-        }else{
-			new WPB_GQB_Shortcode_Handler();
-		}
+        }
 
 		if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 			new WPB_GQB_WooCommerce_Handler();
@@ -196,6 +197,16 @@ class WPB_Get_Quote_Button {
 	
 	// Loads frontend scripts and styles
     public function enqueue_scripts() {
+    	if( wpb_gqb_get_option( 'wpb_gqb_force_cf7_scripts', 'form_settings' ) == 'on' ){
+    		if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+				wpcf7_enqueue_scripts();
+			}
+
+			if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+				wpcf7_enqueue_styles();
+			}
+    	}
+
 		// All styles goes here
 		wp_enqueue_style( 'wpb-get-a-quote-button-sweetalert2', plugins_url( 'assets/css/sweetalert2.min.css', __FILE__ ), array(), $this->version );
 		wp_enqueue_style( 'wpb-get-a-quote-button-styles', plugins_url( 'assets/css/frontend.css', __FILE__ ), array(), $this->version );

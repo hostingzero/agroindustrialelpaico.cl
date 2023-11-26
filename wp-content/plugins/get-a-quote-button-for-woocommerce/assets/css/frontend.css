@@ -82,6 +82,12 @@
 Contact Form Style
 */
 
+.wpb_gqb_form_product_info_hide .gqb_hidden_field {
+    display: none!important;
+}
+.wpb_gqb_form_product_info_show .gqb_hidden_field {
+    display: block!important;
+}
 .wpb-gqf-form-style-true .swal2-content,
 .wpb-gqf-form-style-true .swal2-modal {
     text-align: unset!important;
@@ -245,8 +251,8 @@ Contact Form Style
 .wpb-gqf-btn-loading:before {
     content: '';
     box-sizing: border-box;
-    width: 15px;
-    height: 15px;
+    min-width: 15px;
+    min-height: 15px;
     margin-right: 7px;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.3);

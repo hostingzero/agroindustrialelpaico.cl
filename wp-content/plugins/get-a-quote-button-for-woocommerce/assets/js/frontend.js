@@ -70,6 +70,12 @@
 
                 // Add post ID to the popup form
                 $("[name='_wpcf7_container_post']").val( post_id );
+
+                // Adding any custom JS code on form init
+                if( typeof wpb_gqf_on_cf7_form_init === "function" ){
+                    wpb_gqf_on_cf7_form_init();
+                }
+
             },
             error: function(error) {
                 alert( error );

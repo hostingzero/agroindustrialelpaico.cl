@@ -22,18 +22,47 @@ if( !function_exists('wpb_gqb_get_option') ){
 
 
 /**
+ * Show or hide the product info in the form
+ */
+
+add_action( 'init', function(){
+    add_filter('wpcf7_form_class_attr', function( $class ){
+        $product_info       = wpb_gqb_get_option( 'wpb_gqb_form_product_info', 'woo_settings', 'hide' );
+
+        if( $product_info ){
+            $class .= ' wpb_gqb_form_product_info_' . esc_attr($product_info);
+        }
+
+        return $class;
+    });
+});
+
+/**
  * CF7 Post Shortcode
  */
 
 add_action( 'wpcf7_init', 'wpb_gqb_cf7_add_form_tag_for_post_title' );
  
 function wpb_gqb_cf7_add_form_tag_for_post_title() {
-    wpcf7_add_form_tag( 'post_title', 'wpb_gqb_cf7_post_title_tag_handler' ); // "clock" is the type of the form-tag
+    wpcf7_add_form_tag( 'post_title', 'wpb_gqb_cf7_post_title_tag_handler' );
+    wpcf7_add_form_tag( 'gqb_product_title', 'wpb_gqb_cf7_send_post_title_tag_handler' );
 }
  
 function wpb_gqb_cf7_post_title_tag_handler( $tag ) {
     if(isset($_POST['wpb_post_id'])){
-        return '<input type="hidden" name="post-title" value="'. get_the_title( (int) $_POST['wpb_post_id'] ).'">';
+        $id = intval( wp_unslash( $_POST['wpb_post_id'] ) );
+        return '<input type="hidden" name="post-title" value="'. esc_attr( get_the_title($id) ).'">';
+    }
+}
+
+/**
+ * Send the product title
+ */
+
+function wpb_gqb_cf7_send_post_title_tag_handler( $tag ) {
+    if(isset($_POST['wpb_post_id'])){
+        $id = intval( wp_unslash( $_POST['wpb_post_id'] ) );
+        return '<input class="gqb_hidden_field gqb_product_title" type="text" name="gqb_product_title" value="'. esc_attr( get_the_title($id) ) .'">';
     }
 }
 

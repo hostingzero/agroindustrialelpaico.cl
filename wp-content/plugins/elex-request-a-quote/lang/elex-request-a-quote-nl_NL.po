@@ -1,0 +1,2185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Request a Quote - Basic\n"
+"POT-Creation-Date: 2023-10-11 14:45+0530\n"
+"PO-Revision-Date: 2023-10-11 14:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-elex-request-a-quote.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: assets/js/components/form/fields/form.js:402
+msgid "Send Request"
+msgstr "Verzoek versturen"
+
+#: assets/js/components/form_settings.js:210
+#: assets/js/components/settings/form_setting_header.js:14
+msgid "Form Settings"
+msgstr "Formulier instellingen"
+
+#: assets/js/components/form_settings.js:219
+
+msgid "Show Request a Quote Form"
+msgstr "Toon offerte aanvraagformulier"
+
+#: assets/js/components/form_settings.js:230
+#: assets/js/components/settings/form_setting_header.js:35
+
+msgid ""
+"Turn this Off, if you want to use any third party form to get the quote "
+"requests."
+msgstr ""
+"Schakel dit uit als u een formulier van derden wilt gebruiken om de "
+"offerteaanvragen te ontvangen."
+
+#: assets/js/components/form_settings.js:239
+#: assets/js/components/settings/form_setting_header.js:44
+
+msgid "Form Header Title"
+msgstr "Titel van formulierkoptekst"
+
+#: assets/js/components/form_settings.js:260
+
+msgid "Fill Your Details"
+msgstr "Vul uw gegevens in"
+
+#: assets/js/components/form_settings.js:264
+#: assets/js/components/settings/form_setting_header.js:67
+
+msgid "Form Submit Actions"
+msgstr "Acties voor het indienen van formulieren"
+
+#: assets/js/components/form_settings.js:269
+#: assets/js/components/settings/form_setting_header.js:72
+
+msgid "\"Send Request\" Button Redirectional URl"
+msgstr "Knop \"Verzoek verzenden\" Redirectional URl"
+
+#: assets/js/components/form_settings.js:298
+#: assets/js/components/settings/form_setting_header.js:98
+
+msgid "\"Send Request\" Success Message"
+msgstr "Succesbericht 'Aanvraag verzenden'"
+
+#: assets/js/components/form_settings.js:319
+msgid "Your request has been sent successfully."
+msgstr "Je bestelling is succesvol verzonden."
+
+#: assets/js/components/form_settings.js:325
+
+msgid "Form Field Settings"
+msgstr "Instellingen voor formuliervelden"
+
+#: assets/js/components/form_settings.js:331
+
+msgid ""
+"When you create custom fields, the placeholder for the email template will "
+"be created based on the label text (For eg: Upload Image will be "
+"@Upload_Image). If you make changes to the label text in the future, please "
+"make sure to use the updated placeholder in the email body. Also, the label "
+"text cannot be modified for orders placed before the change."
+msgstr ""
+"Wanneer u aangepaste velden maakt, wordt de tijdelijke aanduiding voor de e-"
+"mailsjabloon gemaakt op basis van de labeltekst (bijvoorbeeld: Afbeelding "
+"uploaden wordt @Upload_Image). Als u in de toekomst wijzigingen aanbrengt in "
+"de labeltekst, moet u de bijgewerkte tijdelijke aanduiding in de hoofdtekst "
+"van de e-mail gebruiken. Ook kan de labeltekst niet worden gewijzigd voor "
+"bestellingen die vóór de wijziging zijn geplaatst."
+
+#: assets/js/components/form_settings.js:339
+msgid "Label Name"
+msgstr "Etiketnaam"
+
+#: assets/js/components/form_settings.js:340
+
+msgid "Field Type "
+msgstr "Type veld "
+
+#: assets/js/components/form_settings.js:341
+
+msgid "Placeholder "
+msgstr "Placeholder"
+
+#: assets/js/components/form_settings.js:342
+
+msgid "Connected To "
+msgstr "Verbonden met "
+
+#: assets/js/components/form_settings.js:343
+
+msgid "Required "
+msgstr "Vereist "
+
+#: assets/js/components/form_settings.js:344
+
+msgid "Actions "
+msgstr "Acties "
+
+#: assets/js/components/form_settings.js:369
+
+msgid "Add New Field "
+msgstr "Nieuw veld toevoegen "
+
+#: assets/js/components/form_settings.js:373
+#: view/listpage_form_setting/additional_options.php:162
+#: view/listpage_form_setting/quote_list.php:247
+#: view/notification_settings/general.php:115
+#: view/notification_settings/google_chat.php:79
+#: view/notification_settings/sms.php:170 view/settings/general.php:977
+#: view/settings/hide_addtocart_price.php:359 view/settings/template.php:802
+#: view/settings/widget.php:186
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:31
+
+msgid "items in Quote List"
+msgstr "objecten in offertelijst"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:56
+#: view/quote/view_quote_list.php:4
+msgid "View Quote List"
+msgstr "Bekijk offerte overzicht"
+
+#: assets/js/components/quote_list/quote_list_content.js:87
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:62
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:70
+#: src/Templates/order_items.php:10
+msgid "Price"
+msgstr "Prijs"
+
+#: assets/js/components/quote_list/quote_list_content.js:99
+#: view/listpage_form_setting/quote_list.php:196
+msgid "Quantity"
+msgstr "Aantal"
+
+#: assets/js/components/quote_list/quote_list_content.js:110
+#: assets/js/components/quote_list/quote_list_content.js:121
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:64
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:117
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:72
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:122
+#: src/Templates/order_items.php:20 src/Templates/order_items.php:122
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: assets/js/components/quote_list/quote_list_content.js:136
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:133
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:130
+#: src/Templates/order_items.php:157
+msgid "Total"
+msgstr "Totaal"
+
+#: assets/js/components/quote_list/quote_list_content.js:214
+msgid "Update List"
+msgstr "Lijst bijwerken"
+
+#: assets/js/components/quote_list/quote_list_content.js:457
+msgid "Product Detail"
+msgstr "Product detail"
+
+#: assets/js/components/quote_list/quote_list_empty.js:21
+
+msgid "Go to Shop Page"
+msgstr "Ga naar de winkelpagina"
+
+#: assets/js/components/quote_list/show_clear_list.js:14
+msgid "Clear List"
+msgstr "Schoon de lijst op"
+
+#: assets/js/components/quote_list/success_alert_toast.js:14
+#: src/FormSetting/FormSettingController.php:240
+msgid "Saved Successfully."
+msgstr "Succesvol opgeslagen."
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Select a type"
+msgstr "Selecteer een type"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Text"
+msgstr "Tekst"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Textarea"
+msgstr "Tekstveld"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Email"
+msgstr "E-mail"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Url"
+msgstr "Url"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Image"
+msgstr "Afbeelding"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Date"
+msgstr "Datum"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Number"
+msgstr "Nummer"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Radio"
+msgstr "Radio"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Tel"
+msgstr "Tel"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "Select Connected To"
+msgstr "Selecteer Verbonden met"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_first_name"
+msgstr "Voornaam"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_last_name"
+msgstr "Achternaam"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_email"
+msgstr "Factuur E-mail Adres"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_company"
+msgstr "Bedrijfsnaam"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_country"
+msgstr "Land"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_1"
+msgstr "billing_address_1"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_2"
+msgstr "billing_address_2"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_city"
+msgstr "Plaats"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_state"
+msgstr "Provincie"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_postcode"
+msgstr "Postcode"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_phone"
+msgstr "Telefoonnummer"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "order_comments"
+msgstr "order_comments"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "Custom Field"
+msgstr "Aangepast veld"
+
+#: assets/js/components/settings/form_fields.js:395
+
+msgid "Enter values and click enter to add more"
+msgstr "Voer waarden in en klik op enter om meer toe te voegen"
+
+#: assets/js/components/settings/form_fields.js:396
+
+msgid "Click Enter to add more"
+msgstr "Klik op Enter om meer toe te voegen"
+
+#: assets/js/components/settings/form_setting_header.js:23
+
+msgid "Show Request a Quote"
+msgstr "Toon Offerte aanvragen"
+
+#: assets/js/components/toast_message/update_message.js:17
+msgid "Updated Successfully"
+msgstr "Succesvol bijgewerkt"
+
+#: class-elex-request-a-quote.php:50
+
+msgid ""
+"WooCommerce plugin must be active for ELEX Request a Quote Plugin to work."
+msgstr ""
+"WooCommerce plugin moet actief zijn om ELEX Request a Quote Plugin te laten "
+"werken."
+
+#: class-elex-request-a-quote.php:63 src/RequestAQuote.php:413
+#: src/RequestAQuote.php:414 view/header.php:4
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class-elex-request-a-quote.php:64 view/market.php:115
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: class-elex-request-a-quote.php:65
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: class-elex-request-a-quote.php:74
+
+msgid ""
+"The Premium version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"De Premium versie van ELEX Offerte aanvragen is al geïnstalleerd en "
+"geactiveerd. Deactiveer het om de basisversie te activeren. Als u problemen "
+"ondervindt, neem dan contact op met onze "
+
+#: class-elex-request-a-quote.php:75
+
+msgid ""
+"The WooCommerce version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"De WooCommerce versie van ELEX Request a Quote is al geïnstalleerd en "
+"geactiveerd. Deactiveer het om de basisversie te activeren. Als u problemen "
+"ondervindt, neem dan contact op met onze "
+
+#: class-elex-request-a-quote.php:77
+
+msgid "for assistance."
+msgstr "voor hulp."
+
+#: class-elex-request-a-quote.php:86 class-elex-request-a-quote.php:90
+
+msgid "Support "
+msgstr "Ondersteuning"
+
+#: src/ElementorWidget/Eraq_add_to_quote_widget.php:9
+#: src/Settings/Models/GeneralSettings.php:93
+msgid "Add to Quote"
+msgstr "Voeg toe aan offerte"
+
+#: src/FormSetting/FormSettingController.php:83
+#: src/FormSetting/FormSettingController.php:114
+#: src/FormSetting/FormSettingController.php:290
+#: src/FormSetting/FormSettingController.php:386
+
+msgid "Name and type Can not be empty"
+msgstr "Naam en type Mag niet leeg zijn"
+
+#: src/FormSetting/FormSettingController.php:98
+
+msgid "Field has been rearranged successfully"
+msgstr "Veld is met succes herschikt"
+
+#: src/FormSetting/FormSettingController.php:138
+#: src/FormSetting/FormSettingController.php:275
+#: src/FormSetting/FormSettingController.php:409
+
+msgid "Enter options for the selcted types"
+msgstr "Voer opties in voor de geselecteerde typen"
+
+#: src/FormSetting/FormSettingController.php:152
+#: src/FormSetting/FormSettingController.php:321
+#: src/FormSetting/FormSettingController.php:354
+#: src/FormSetting/FormSettingController.php:425
+
+msgid "Atleast one option is required"
+msgstr "Er is ten minste één optie vereist"
+
+#: src/FormSetting/FormSettingController.php:165
+#: src/FormSetting/FormSettingController.php:334
+
+msgid "Already exist"
+msgstr "Bestaat"
+
+#: src/FormSetting/FormSettingController.php:178
+
+msgid "Field has been added successfully"
+msgstr "Veld is toegevoegd"
+
+#: src/FormSetting/FormSettingController.php:367
+#: src/FormSetting/FormSettingController.php:438
+#: src/FormSetting/FormSettingController.php:477
+
+msgid "No Field Exist"
+msgstr "Er bestaat geen veld"
+
+#: src/FormSetting/FormSettingController.php:449
+
+msgid "Field has been edited successfully"
+msgstr "Veld is met succes bewerkt"
+
+#: src/FormSetting/FormSettingController.php:493
+
+msgid "Field has been "
+msgstr "Veld is geweest "
+
+#: src/FormSetting/FormSettingController.php:517
+msgid "Invalid field"
+msgstr "Ongeldig veld"
+
+#: src/FormSetting/FormSettingController.php:528
+
+msgid "Field has been deleted"
+msgstr "Veld is verwijderd"
+
+#: src/FormSetting/FormSettingController.php:605
+#: src/FormSetting/FormSettingController.php:613
+msgid "The "
+msgstr "De "
+
+#: src/FormSetting/Models/FormSettings.php:42
+
+msgid "Your request has been submitted."
+msgstr "Uw aanvraag is ingediend."
+
+#: src/FormSetting/Models/FormSettings.php:49
+
+msgid "Add your first name."
+msgstr "Voeg uw voornaam toe."
+
+#: src/FormSetting/Models/FormSettings.php:64
+
+msgid "Add your last name."
+msgstr "Voeg uw achternaam toe."
+
+#: src/FormSetting/Models/FormSettings.php:79
+
+msgid "Add your email."
+msgstr "Voeg uw e-mailadres toe."
+
+#: src/FormSetting/Models/FormSettings.php:95
+
+msgid "Enter your Phone number"
+msgstr "Voer uw telefoonnummer in"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:44
+msgid "FAQs"
+msgstr "Veelgestelde vragen"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:49
+
+msgid "Raise a Ticket"
+msgstr "Verhoog een ticket"
+
+#: src/Notification/NotificationController.php:330
+
+msgid "General notification"
+msgstr "Algemene kennisgeving"
+
+#: src/Notification/NotificationController.php:335
+#: view/notification_settings/sms.php:13
+msgid "SMS Notification"
+msgstr "SMS-melding"
+
+#: src/Notification/NotificationController.php:340
+#: view/notification_settings/google_chat.php:14
+
+msgid "Google Chat Notification"
+msgstr "Google Chat-melding"
+
+#: src/Quotelist/ListPageController.php:117
+
+msgid "Quote List Page"
+msgstr "Lijst met offertes"
+
+#: src/Quotelist/ListPageController.php:122
+msgid "Additional Options"
+msgstr "Extra opties"
+
+#: src/Quotelist/ListPageController.php:127
+msgid "Quote Form"
+msgstr "Offerte Formulier"
+
+#: src/Quotelist/ListPageController.php:158
+#: src/Quotelist/Models/ListPageSettings.php:28
+#: src/Widget/Models/WidgetModel.php:29 src/Widget/WidgetController.php:37
+#: src/Widget/WidgetController.php:62
+#: view/listpage_form_setting/quote_list.php:62
+msgid "Quote List"
+msgstr "Offerte lijst"
+
+#: src/Quotelist/ListPageController.php:163
+#: src/Quotelist/Models/ListPageSettings.php:37
+
+msgid "Your Quote List is Empty"
+msgstr "Uw offertelijst is leeg"
+
+#: src/Quotelist/ListPageController.php:189
+#: src/Quotelist/Models/ListPageSettings.php:57
+
+msgid "Add More Items"
+msgstr "Meer items toevoegen"
+
+#: src/Quotelist/Models/QuoteListModel.php:997
+#: src/Quotelist/Models/QuoteListModel.php:1046
+msgid "First name"
+msgstr "Voornaam"
+
+#: src/Quotelist/Models/QuoteListModel.php:1001
+#: src/Quotelist/Models/QuoteListModel.php:1050
+msgid "Last name"
+msgstr "Achternaam"
+
+#: src/Quotelist/Models/QuoteListModel.php:1005
+#: src/Quotelist/Models/QuoteListModel.php:1054
+msgid "Company"
+msgstr "Bedrijf"
+
+#: src/Quotelist/Models/QuoteListModel.php:1009
+#: src/Quotelist/Models/QuoteListModel.php:1058
+msgid "Address line 1"
+msgstr "Adresregel 1"
+
+#: src/Quotelist/Models/QuoteListModel.php:1013
+#: src/Quotelist/Models/QuoteListModel.php:1062
+msgid "Address line 2"
+msgstr "Adresregel 2"
+
+#: src/Quotelist/Models/QuoteListModel.php:1017
+#: src/Quotelist/Models/QuoteListModel.php:1066
+msgid "City"
+msgstr "Stad"
+
+#: src/Quotelist/Models/QuoteListModel.php:1021
+#: src/Quotelist/Models/QuoteListModel.php:1070
+msgid "Postcode / ZIP"
+msgstr "Postcode"
+
+#: src/Quotelist/Models/QuoteListModel.php:1025
+#: src/Quotelist/Models/QuoteListModel.php:1074
+msgid "Country / Region"
+msgstr "Land"
+
+#: src/Quotelist/Models/QuoteListModel.php:1029
+#: src/Quotelist/Models/QuoteListModel.php:1078
+msgid "Select a country / region&hellip;"
+msgstr "Selecteer een land/regio&hellip;"
+
+#: src/Quotelist/Models/QuoteListModel.php:1032
+#: src/Quotelist/Models/QuoteListModel.php:1081
+
+msgid "State / County"
+msgstr "Provincie"
+
+#: src/Quotelist/Models/QuoteListModel.php:1037
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: src/Quotelist/Models/QuoteListModel.php:1040
+msgid "Phone"
+msgstr "Telefoon"
+
+#: src/Quotelist/Models/QuoteListModel.php:1096
+msgid "Billing"
+msgstr "Facturatie"
+
+#: src/Quotelist/Models/QuoteListModel.php:1141
+msgid "Shipping"
+msgstr "Verzending"
+
+#: src/Quotelist/Models/QuoteListModel.php:1185
+msgid "General"
+msgstr "Algemeen"
+
+#: src/Quotelist/Models/QuoteListModel.php:1341
+
+msgid "First name should be a string."
+msgstr "Voornaam moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1347
+
+msgid "Last name should be a string."
+msgstr "Achternaam moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1352
+
+msgid "Company name should be a string."
+msgstr "Bedrijfsnaam moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1357
+
+msgid "Email should be in valid format."
+msgstr "E-mail moet een geldig formaat hebben."
+
+#: src/Quotelist/Models/QuoteListModel.php:1362
+
+msgid "Email should be a int of length 10."
+msgstr "E-mail moet een int van lengte 10 zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1367
+
+msgid "Address 1  should be a string."
+msgstr "Adres 1 moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1372
+
+msgid "Address 2  should be a string."
+msgstr "Adres 2 moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1377
+
+msgid "City name  should be a string."
+msgstr "Plaatsnaam moet een touwtje zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1382
+
+msgid "state name  should be a string."
+msgstr "De naam van de staat moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1387
+
+msgid "Postcode  should be a string."
+msgstr "Postcode moet een string zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1393
+
+msgid "Country name should be a string."
+msgstr "De naam van het land moet een tekenreeks zijn."
+
+#: src/Quotelist/Models/QuoteListModel.php:1398
+
+msgid "Address array is empty"
+msgstr "Adresarray is leeg"
+
+#: src/Quotelist/Models/QuoteListModel.php:1406
+
+msgid "Custom Fields array is empty"
+msgstr "De array Aangepaste velden is leeg"
+
+#: src/Quotelist/Models/QuoteListModel.php:1420
+msgid "User not found"
+msgstr "Gebruiker niet gevonden"
+
+#: src/Quotelist/Models/QuoteListModel.php:1435
+
+msgid "Unauthorize Access"
+msgstr "Onbevoegde toegang"
+
+#: src/Quotelist/QuoteListController.php:171
+msgid "Your request has been sent successfully"
+msgstr "Jouw verzoek is verzonden"
+
+#: src/Quotelist/QuoteListController.php:195
+
+msgid "ELEX Quote Request Details"
+msgstr "ELEX Offerte aanvraag Details"
+
+#: src/RequestAQuote.php:189
+
+msgid "Quotes List"
+msgstr "Lijst met citaten"
+
+#: src/RequestAQuote.php:200 view/settings/template.php:466
+
+msgid "Quote Received"
+msgstr "Offerte ontvangen"
+
+#: src/RequestAQuote.php:402 src/RequestAQuote.php:403
+msgid "Request a Quote"
+msgstr "Offerte aanvragen"
+
+#: src/RequestAQuote.php:422 src/RequestAQuote.php:423 view/header.php:4
+
+msgid "Customize Quote List & Form"
+msgstr "Offertelijst en formulier aanpassen"
+
+#: src/RequestAQuote.php:430 src/RequestAQuote.php:431
+#: view/help_support_header.php:1
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: src/Settings/Models/GeneralSettings.php:92
+#: src/Settings/SettingsController.php:389 view/settings/general.php:150
+
+msgid "Product successfully added to the Quote List"
+msgstr "Product toegevoegd aan de offertelijst"
+
+#: src/Settings/SettingsController.php:406
+
+msgid "show_for_all_products"
+msgstr "show_for_all_products"
+
+#: src/Settings/SettingsController.php:519
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: src/Settings/SettingsController.php:524
+
+msgid "Hide Add to Cart & Price"
+msgstr "Verberg Voeg toe aan winkelwagen & Prijs"
+
+#: src/Settings/SettingsController.php:529
+msgid "Notification Settings"
+msgstr "Notificatie instellingen"
+
+#: src/Settings/SettingsController.php:533
+msgid "Template Settings"
+msgstr "Template instellingen"
+
+#: src/Settings/SettingsController.php:537
+
+msgid "Quote List Menu"
+msgstr "Menu Lijst met offertes"
+
+#: src/Settings/SettingsController.php:541
+msgid "Go Premium!"
+msgstr "Upgrade naar Premium!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:7
+
+msgid "Received a Quote!"
+msgstr "Een offerte ontvangen!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:21
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:23
+
+msgid "Quote #213"
+msgstr "Citaat #213"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:30
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:32
+
+msgid "Issued By: Max Smith"
+msgstr "Uitgegeven door: Max Smith"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:29
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:33
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:35
+
+msgid "Issued Date: 02-March-2022"
+msgstr "Datum van uitgifte: 02-maart-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:32
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:36
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:38
+
+msgid "Expiry Date: 04-March-2022"
+msgstr "Vervaldatum: 04-maart-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:41
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:49
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:46
+
+msgid "Will Miller"
+msgstr "Will Molenaar"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:44
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:52
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:49
+
+msgid "Kelly.elliot@gmail.com"
+msgstr "Kelly.elliot@gmail.com"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:47
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:55
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:52
+
+msgid "(190)081-0336"
+msgstr "(190)081-0336"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:61
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:69
+#: src/Templates/order_items.php:6
+msgid "Products"
+msgstr "Producten"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:63
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:71
+#: src/Templates/order_items.php:15
+msgid "Qty."
+msgstr "Aantal."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:77
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:97
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:85
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:105
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:82
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:102
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:78
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:98
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:86
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:106
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:83
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:103
+
+msgid "SKU:s123432"
+msgstr "Artikelnummer:s123432"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:121
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:129
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:126
+#: src/Templates/order_items.php:130
+msgid "Fees"
+msgstr "Kosten"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:137
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:145
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:142
+#: src/TemplateSetting/Models/TemplateModel.php:309
+
+msgid "Accept & Pay"
+msgstr "Accepteren & Betalen"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:143
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:152
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:148
+#: src/Templates/order_items.php:172
+msgid "Terms & Conditions"
+msgstr "Algemene voorwaarden"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:146
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. At vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. Bij vero eos."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:155
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:165
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:160
+
+msgid "Powered by ELEX Request a Quote"
+msgstr "Powered by ELEX Vraag een offerte aan"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:45
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:42
+msgid "Customer Details"
+msgstr "Klantgegevens"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:156
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:151
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. At "
+"vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. Bij "
+"vero eos."
+
+#: src/TemplateSetting/Models/TemplateModel.php:241
+
+msgid "Product Name: Price * Quantity = Subtotal"
+msgstr "Productnaam: Prijs * Hoeveelheid = Subtotaal"
+
+#: src/TemplateSetting/Models/TemplateModel.php:251
+msgid "Total :"
+msgstr "Totaal :"
+
+#: src/Templates/order_items.php:139
+msgid "Discount"
+msgstr "Korting"
+
+#: src/Templates/order_items.php:148
+msgid "Tax"
+msgstr "BTW"
+
+#: src/create_order_status.php:15
+msgid "Quote Requested"
+msgstr "Offerte aangevraagd"
+
+#: src/create_order_status.php:20
+, php-format
+msgid "Quote Requested (%s)"
+msgid_plural "Quote Requested (%s)"
+msgstr[0] "Offerte aangevraagd (%s)"
+msgstr[1] "Offerte aangevraagd (%s)"
+
+#: src/create_order_status.php:26 view/settings/template.php:575
+msgid "Quote Approved"
+msgstr "Offerte goedgekeurd"
+
+#: src/create_order_status.php:31
+, php-format
+msgid "Quote Approved (%s)"
+msgid_plural "Quote Approved (%s)"
+msgstr[0] "Goedgekeurde offerte (%s)"
+msgstr[1] "Goedgekeurde offerte (%s)"
+
+#: src/create_order_status.php:37 view/notification_settings/general.php:72
+#: view/settings/template.php:685
+msgid "Quote Rejected"
+msgstr "Offerte afgewezen"
+
+#: src/create_order_status.php:42
+, php-format
+msgid "Quote Rejected (%s)"
+msgid_plural "Quote Rejected (%s)"
+msgstr[0] "Offerte afgewezen (%s)"
+msgstr[1] "Offerte afgewezen (%s)"
+
+#: view/header.php:15
+, php-format
+msgid ""
+"To customize your website's quote request form and quote items listing page, "
+"visit  %1$s section."
+msgstr ""
+"Als u het offerteaanvraagformulier en de pagina met offerte-items van uw "
+"website wilt aanpassen, gaat u naar %1$s sectie."
+
+#: view/header.php:20
+, php-format
+msgid "To set up request a quote on your site, visit  %1$s section."
+msgstr ""
+"Als u een offerteaanvraag op uw site wilt instellen, gaat u naar %1$s "
+"gedeelte."
+
+#: view/header.php:39
+
+msgid "go_premium"
+msgstr "Upgrade naar Premium!"
+
+#: view/header.php:43
+
+msgid "elex_raq_basic"
+msgstr "elex_raq_basic"
+
+#: view/help_support/faqs.php:5
+
+msgid "Q1."
+msgstr "Vraag 1."
+
+#: view/help_support/faqs.php:6
+
+msgid "Can I hide the “Add to Cart” button on the product page?"
+msgstr ""
+"Kan ik de knop \"Toevoegen aan winkelwagentje\" op de productpagina "
+"verbergen?"
+
+#: view/help_support/faqs.php:11
+
+msgid ""
+"Yes, You can easily hide the ‘Add to Cart’ button on the product page as "
+"well as the shop page."
+msgstr ""
+"Ja, u kunt de knop 'Toevoegen aan winkelwagen' eenvoudig verbergen op de "
+"productpagina en de winkelpagina."
+
+#: view/help_support/faqs.php:17
+
+msgid "Q2."
+msgstr "Vraag 2."
+
+#: view/help_support/faqs.php:18
+
+msgid "Can I hide the price of the products?"
+msgstr "Kan ik de prijs van de producten verbergen?"
+
+#: view/help_support/faqs.php:26
+
+msgid "Yes, You can hide the price of a particular product.\n"
+msgstr "Ja, u kunt de prijs van een bepaald product verbergen.\n"
+
+#: view/help_support/faqs.php:37
+
+msgid "Q3."
+msgstr "Vraag 3."
+
+#: view/help_support/faqs.php:41
+
+msgid "Can I customize my quote list page?\n"
+msgstr "Kan ik mijn offertelijstpagina aanpassen?\n"
+
+#: view/help_support/faqs.php:53
+
+msgid ""
+"Yes, ELEX Request a Quote plugin allows you to customize & enhance your "
+"frontend quote list page.\n"
+msgstr ""
+"Ja, met de ELEX Request a Quote-plug-in kunt u uw frontend-"
+"offertelijstpagina aanpassen en verbeteren.\n"
+
+#: view/help_support/faqs.php:65
+
+msgid "Q4."
+msgstr "Vraag 4."
+
+#: view/help_support/faqs.php:69
+
+msgid "Does this plugin have the option to customize the Emails template?\n"
+msgstr ""
+"Heeft deze plug-in de mogelijkheid om de sjabloon E-mails aan te passen?\n"
+
+#: view/help_support/faqs.php:81
+
+msgid ""
+"Yes, this plugin gives you the option to select from the predefined template "
+"or customize & create your own email template.\n"
+msgstr ""
+"Ja, deze plug-in geeft u de mogelijkheid om te kiezen uit de vooraf "
+"gedefinieerde sjabloon of om uw eigen e-mailsjabloon aan te passen en te "
+"maken.\n"
+
+#: view/help_support/faqs.php:93
+
+msgid "Q5."
+msgstr "Vraag 5."
+
+#: view/help_support/faqs.php:94
+
+msgid ""
+"Can I restrict guest/ unregistered users from adding products into the Quote "
+"List and redirect them to the login or sign up page?"
+msgstr ""
+"Kan ik gast-/niet-geregistreerde gebruikers beperken om producten toe te "
+"voegen aan de offertelijst en ze omleiden naar de inlog- of "
+"aanmeldingspagina?"
+
+#: view/help_support/faqs.php:102
+
+msgid ""
+"Yes, this option is available in the plugin settings. We have a separate "
+"option for this where you can enable and redirect the guest/unregistered "
+"users to create an account or sign in to request a quote\n"
+msgstr ""
+"Ja, deze optie is beschikbaar in de plugin-instellingen. We hebben hiervoor "
+"een aparte optie waar u de gast/niet-geregistreerde gebruikers kunt "
+"inschakelen en omleiden om een account aan te maken of in te loggen om een "
+"offerte aan te vragen\n"
+
+#: view/help_support/tickets.php:6
+
+msgid "Before raising the ticket, we recommend you to go through our detailed"
+msgstr "Voordat u het ticket verhoogt, raden we u aan om onze gedetailleerde"
+
+#: view/help_support/tickets.php:6
+msgid "documentation."
+msgstr "documentatie."
+
+#: view/help_support/tickets.php:7
+msgid "Or"
+msgstr "Of"
+
+#: view/help_support/tickets.php:8
+
+msgid ""
+"To get in touch with one of our helpdesk representatives, please raise a "
+"support ticket on our website."
+msgstr ""
+"Om in contact te komen met een van onze helpdeskmedewerkers, kunt u een "
+"supportticket op onze website indienen."
+
+#: view/help_support/tickets.php:9
+
+msgid ""
+"* Please don`t forget to attach your System Info File with the request for "
+"better support."
+msgstr ""
+"* Vergeet niet om uw systeeminformatiebestand bij te voegen bij het verzoek "
+"om betere ondersteuning."
+
+#: view/help_support/tickets.php:13
+
+msgid "Raise a ticket"
+msgstr "Verhoog een ticket"
+
+#: view/help_support/tickets.php:21
+
+msgid ""
+"To copy the System Info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Als u de systeeminfo wilt kopiëren, klikt u hieronder en drukt u op Ctrl + C "
+"(pc) of Cmd + C (Mac)."
+
+#: view/help_support/tickets.php:31
+msgid "Download System Info"
+msgstr "Systeeminformatie downloaden"
+
+#: view/listpage_form_setting/additional_options.php:13
+
+msgid "Show \"Update List\" Button"
+msgstr "Knop \"Lijst bijwerken\" weergeven"
+
+#: view/listpage_form_setting/additional_options.php:41
+
+msgid "Show \"Clear List\" Button"
+msgstr "Toon de knop \"Lijst wissen\""
+
+#: view/listpage_form_setting/additional_options.php:72
+
+msgid "\"Add more Items\" Button"
+msgstr "Knop 'Meer items toevoegen'"
+
+#: view/listpage_form_setting/additional_options.php:92
+#: view/listpage_form_setting/quote_list.php:76
+#: view/listpage_form_setting/quote_list.php:95
+#: view/listpage_form_setting/quote_list.php:242
+#: view/notification_settings/general.php:109
+#: view/notification_settings/google_chat.php:33
+#: view/notification_settings/sms.php:20 view/settings/template.php:79
+#: view/settings/widget.php:18 view/settings/widget.php:110
+#: view/settings/widget.php:176
+msgid "checked"
+msgstr "aangevinkt"
+
+#: view/listpage_form_setting/additional_options.php:104
+
+msgid "\"Add more Items\" Button Label"
+msgstr "Knoplabel 'Meer items toevoegen'"
+
+#: view/listpage_form_setting/additional_options.php:123
+
+msgid "Add More items"
+msgstr "Meer items toevoegen"
+
+#: view/listpage_form_setting/additional_options.php:133
+
+msgid "\"Add More Items\" Button Redirect Page"
+msgstr "Knop 'Meer items toevoegen' Omleidingspagina"
+
+#: view/listpage_form_setting/quote_list.php:10
+
+msgid "Select \"Quote List\" Page"
+msgstr "Selecteer de pagina \"Offertelijst\""
+
+#: view/listpage_form_setting/quote_list.php:43
+
+msgid "Quote List Page Title"
+msgstr "Titel van de lijst met offertes"
+
+#: view/listpage_form_setting/quote_list.php:71
+
+msgid "\"Quote List\" Page Layout"
+msgstr "Pagina-indeling \"Quote List\""
+
+#: view/listpage_form_setting/quote_list.php:91
+
+msgid "Product list on the left & form on the right"
+msgstr "Productlijst aan de linkerkant &; formulier aan de rechterkant"
+
+#: view/listpage_form_setting/quote_list.php:110
+
+msgid "Product list on the top & form on the bottom"
+msgstr "Productlijst bovenaan & formulier onderaan"
+
+#: view/listpage_form_setting/quote_list.php:121
+
+msgid "Choose What to Show If List is Empty"
+msgstr "Kies wat u wilt weergeven als de lijst leeg is"
+
+#: view/listpage_form_setting/quote_list.php:124
+#: view/listpage_form_setting/quote_list.php:174 view/settings/general.php:477
+#: view/settings/general.php:657 view/settings/general.php:795
+#: view/settings/general.php:836 view/settings/hide_addtocart_price.php:120
+#: view/settings/hide_addtocart_price.php:157
+#: view/settings/hide_addtocart_price.php:322 view/settings/template.php:51
+#: view/settings/template.php:231
+
+msgid "[Premium]"
+msgstr "Upgrade naar Premium!"
+
+#: view/listpage_form_setting/quote_list.php:135
+
+msgid "Illustration"
+msgstr "Illustratie"
+
+#: view/listpage_form_setting/quote_list.php:142
+
+msgid "Empty Text"
+msgstr "Lege tekst"
+
+#: view/listpage_form_setting/quote_list.php:150
+
+msgid "\"Go to Shop Page\" button\""
+msgstr "\"Ga naar winkelpagina\" knop\""
+
+#: view/listpage_form_setting/quote_list.php:158
+
+msgid "Quote a Request Form"
+msgstr "Offerte een aanvraagformulier"
+
+#: view/listpage_form_setting/quote_list.php:171
+
+msgid "Contents to Show in Product Table"
+msgstr "Inhoud om weer te geven in de producttabel"
+
+#: view/listpage_form_setting/quote_list.php:185
+msgid "Product Image"
+msgstr "Productafbeelding"
+
+#: view/listpage_form_setting/quote_list.php:190
+msgid "Product Price"
+msgstr "Product prijs"
+
+#: view/listpage_form_setting/quote_list.php:201
+
+msgid "Each Product Subtotal"
+msgstr "Elk subtotaal van het product"
+
+#: view/listpage_form_setting/quote_list.php:206
+msgid "Product SKU"
+msgstr "Product SKU"
+
+#: view/listpage_form_setting/quote_list.php:211
+msgid "Taxes"
+msgstr "Belastingen"
+
+#: view/listpage_form_setting/quote_list.php:222
+
+msgid "Show \"Powered by ELEX Request a Quote\""
+msgstr "Toon \"Powered by ELEX Vraag een offerte aan\""
+
+#: view/market.php:99
+
+msgid "Note: Basic version supports only few features."
+msgstr "Opmerking: De basisversie ondersteunt slechts enkele functies."
+
+#: view/market.php:100
+
+msgid "Your business is precious! Go Premium to get below features."
+msgstr ""
+"Uw bedrijf is kostbaar! Ga voor Premium om onderstaande functies te krijgen."
+
+#: view/market.php:101
+
+msgid " -  Product-based exclusion for Request a Quote."
+msgstr " - Productgebaseerde uitsluiting voor Offerte aanvragen."
+
+#: view/market.php:103
+
+msgid " - User role-based exclusion for Request a Quote."
+msgstr " - Uitsluiting op basis van gebruikersrollen voor offerteaanvraag."
+
+#: view/market.php:104
+
+msgid "- Disable Request a Quote option for unregistered users."
+msgstr ""
+"- Schakel de optie Offerteaanvraag uit voor niet-geregistreerde gebruikers."
+
+#: view/market.php:105
+
+msgid "- Exclude Request a Quote based on the product stocks."
+msgstr "- Uitsluiten Vraag een offerte aan op basis van de productvoorraden."
+
+#: view/market.php:106
+
+msgid "- Product-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Productgebaseerde uitsluiting van de optie 'Toevoegen aan winkelwagentje "
+"en prijs verbergen'."
+
+#: view/market.php:107
+
+msgid ""
+"- User role-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Op gebruikersrollen gebaseerde uitsluiting van de optie 'Toevoegen aan "
+"winkelwagentje en prijs verbergen'."
+
+#: view/market.php:109
+
+msgid "- Quote list customization option for an empty quote list page."
+msgstr "- Offertelijst aanpassingsoptie voor een lege offertelijstpagina."
+
+#: view/market.php:111
+
+msgid "- Product table customization option for the quote list page."
+msgstr "- Aanpassingsoptie voor producttabellen voor de lijst met offertes."
+
+#: view/market.php:123
+
+msgid "You May Also like"
+msgstr "Misschien vind je dit ook leuk"
+
+#: view/notification_settings/general.php:16
+
+msgid "Notifications Email Address"
+msgstr "E-mailadres voor meldingen"
+
+#: view/notification_settings/general.php:42
+
+msgid "Select Order Statuses To Notify Customers"
+msgstr "Selecteer Orderstatussen om klanten op de hoogte te stellen"
+
+#: view/notification_settings/general.php:66
+
+msgid ""
+"Quote Requested\n"
+"                                        "
+msgstr ""
+"Offerte aangevraagd\n"
+"                                        "
+
+#: view/notification_settings/general.php:76
+
+msgid ""
+"Quote Approved\n"
+"                                        "
+msgstr ""
+"Offerte goedgekeurd\n"
+"                                        "
+
+#: view/notification_settings/general.php:91
+msgid "Debug Log"
+msgstr "Debug logboek"
+
+#: view/notification_settings/google_chat.php:48
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: view/notification_settings/sms.php:32
+, php-format
+msgid ""
+"Enable to receive SMS notification when the customer makes a quote request. "
+"Sign up for a new Twilio account %1$s."
+msgstr ""
+"Schakel in om sms-meldingen te ontvangen wanneer de klant een "
+"offerteaanvraag indient. Meld u %1$s aan voor een nieuw Twilio-account."
+
+#: view/notification_settings/sms.php:45
+
+msgid "Twilio SID"
+msgstr "Twilio SID"
+
+#: view/notification_settings/sms.php:74
+
+msgid "Twilio Token"
+msgstr "Twilio-token"
+
+#: view/notification_settings/sms.php:106
+
+msgid "Twilio Mobile Number"
+msgstr "Twilio mobiel nummer"
+
+#: view/notification_settings/sms.php:138
+
+msgid "Notification Mobile Number"
+msgstr "Melding mobiel nummer"
+
+#: view/output.php:15
+msgid ""
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+
+#: view/output.php:40 view/output.php:41 view/output.php:42 view/output.php:43
+#: view/output.php:44 view/output.php:45 view/output.php:46 view/output.php:59
+#: view/output.php:62 view/output.php:83 view/output.php:84 view/output.php:86
+#: view/output.php:143
+msgid "\n"
+msgstr "\n"
+
+#: view/output.php:47
+msgid "Yes"
+msgstr "Ja"
+
+#: view/output.php:53
+msgid "Length: "
+msgstr "Lengte"
+
+#: view/output.php:54
+
+msgid " Status:"
+msgstr " Status:"
+
+#: view/output.php:56
+
+msgid " ERROR: Too Long"
+msgstr " FOUT: Te lang"
+
+#: view/output.php:58
+
+msgid " Acceptable"
+msgstr " Aanvaardbaar"
+
+#: view/output.php:66 view/output.php:71
+
+msgid " (#"
+msgstr " ( #"
+
+#: view/output.php:76
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: view/output.php:83
+
+msgid "On ("
+msgstr "Op ("
+
+#: view/output.php:84
+msgid "Your server supports fsockopen."
+msgstr "De server ondersteunt fsockopen."
+
+#: view/output.php:85
+msgid "Your server supports cURL."
+msgstr "Uw server ondersteunt cURL."
+
+#: view/output.php:86
+msgid "Your server has the SOAP Client enabled."
+msgstr "Uw server heeft de SOAP-client ingeschakeld."
+
+#: view/output.php:116
+
+msgid "Site Health Info:"
+msgstr "Informatie over de status van de site:"
+
+#: view/quote/add_to_quote.php:4 view/quote/view_quote_list.php:2
+msgid "text-center"
+msgstr "tekst-center"
+
+#: view/quote/quote_list_main.php:5
+
+msgid "Powered by ELEX Request a Quote "
+msgstr "Powered by ELEX Vraag een offerte aan "
+
+#: view/saved_toast.php:12
+
+msgid "Changes Saved Successfully!"
+msgstr "Wijzigingen met succes opgeslagen!"
+
+#: view/settings/general.php:14
+
+msgid "Quote Button on Shop Page"
+msgstr "Knop Offerte op winkelpagina"
+
+#: view/settings/general.php:47
+
+msgid "Quote Button on Product Page"
+msgstr "Knop Offerte op productpagina"
+
+#: view/settings/general.php:77
+
+msgid "Quote Button Configurations"
+msgstr "Configuraties van de offerteknop"
+
+#: view/settings/general.php:83
+
+msgid "Open Quote Form"
+msgstr "Offerteformulier openen"
+
+#: view/settings/general.php:109
+
+msgid "In a New Page"
+msgstr "Op een nieuwe pagina"
+
+#: view/settings/general.php:112
+
+msgid "In a Light Box"
+msgstr "In een lichtbak"
+
+#: view/settings/general.php:124
+
+msgid "Add to Quote Success Alert Message"
+msgstr "Toevoegen aan bericht met succeswaarschuwing voor offertes"
+
+#: view/settings/general.php:162
+
+msgid "Quote Button Customization"
+msgstr "Offerteknop aanpassen"
+
+#: view/settings/general.php:166
+
+msgid "Quote Button Label"
+msgstr "Label van de knop Citaat"
+
+#: view/settings/general.php:199
+
+msgid "Default Button Color"
+msgstr "Standaard knopkleur"
+
+#: view/settings/general.php:239
+msgid "Filter Products"
+msgstr "Filter producten"
+
+#: view/settings/general.php:246
+
+msgid ""
+"The quote button will be added to all the products by\n"
+"                default. If you want to include\n"
+"                or exclude certain products, use the filter options given "
+"below."
+msgstr ""
+"De offerteknop wordt aan alle producten toegevoegd door\n"
+"                verstek. Als u wilt opnemen\n"
+"                of sluit bepaalde producten uit, gebruik dan de onderstaande "
+"filteropties."
+
+#: view/settings/general.php:263 view/settings/hide_addtocart_price.php:117
+msgid "Include Products"
+msgstr "Producten opnemen"
+
+#: view/settings/general.php:282
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        be applied. Rest of the products "
+"will be excluded\n"
+"                                        automatically."
+msgstr ""
+"Selecteer de producten waarvoor de instellingen voor het aanvragen van een "
+"offerte moeten worden ingesteld\n"
+"                                        worden toegepast. De rest van de "
+"producten wordt uitgesloten\n"
+"                                        automatisch."
+
+#: view/settings/general.php:303
+
+msgid "Include Products By Category"
+msgstr "Producten per categorie opnemen"
+
+#: view/settings/general.php:359
+
+msgid "Include Products By Name"
+msgstr "Producten op naam opnemen"
+
+#: view/settings/general.php:415
+
+msgid "Include Products By Tags"
+msgstr "Producten opnemen op tags"
+
+#: view/settings/general.php:474
+
+msgid "Exclude Product"
+msgstr "Product uitsluiten"
+
+#: view/settings/general.php:497
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        not be applied."
+msgstr ""
+"Selecteer de producten waarvoor de instellingen voor het aanvragen van een "
+"offerte moeten worden ingesteld\n"
+"                                        niet worden toegepast."
+
+#: view/settings/general.php:517 view/settings/hide_addtocart_price.php:182
+
+msgid "Exclude Products By Category"
+msgstr "Producten uitsluiten per categorie"
+
+#: view/settings/general.php:561 view/settings/hide_addtocart_price.php:226
+
+msgid "Exclude Products By Name"
+msgstr "Producten uitsluiten op naam"
+
+#: view/settings/general.php:604 view/settings/hide_addtocart_price.php:270
+
+msgid "Exclude Products By Tags"
+msgstr "Producten uitsluiten op tags"
+
+#: view/settings/general.php:654 view/settings/hide_addtocart_price.php:319
+
+msgid "Role Based Filter"
+msgstr "Op rollen gebaseerd filter"
+
+#: view/settings/general.php:677
+
+msgid ""
+"Select the roles for which request a quote settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selecteer de rollen waarvoor de instellingen voor het aanvragen van een "
+"offerte moeten zijn\n"
+"                                        toegepast/niet."
+
+#: view/settings/general.php:697
+
+msgid "Include Roles"
+msgstr "Rollen opnemen"
+
+#: view/settings/general.php:742
+
+msgid "Exclude Roles"
+msgstr "Rollen uitsluiten"
+
+#: view/settings/general.php:792
+
+msgid "Disable Quote Request for Unregistered Users"
+msgstr "Offerteaanvraag uitschakelen voor niet-geregistreerde gebruikers"
+
+#: view/settings/general.php:812
+
+msgid ""
+"By enabling this option guest users can be redirected to the\n"
+"                                        My Account page for registration."
+msgstr ""
+"Door deze optie in te schakelen, kunnen gastgebruikers worden omgeleid naar "
+"de\n"
+"                                        Mijn account pagina voor registratie."
+
+#: view/settings/general.php:833
+
+msgid "Include/Exclude products based on stock"
+msgstr "Producten opnemen/uitsluiten op basis van voorraad"
+
+#: view/settings/general.php:866
+
+msgid "Show Add to Quote Button for all the products"
+msgstr "Knop Toevoegen aan prijsopgave weergeven voor alle producten"
+
+#: view/settings/general.php:871
+
+msgid "Hide Add to Quote button for Out of Stock products"
+msgstr ""
+"De knop Toevoegen aan offerte verbergen voor producten die niet op voorraad "
+"zijn"
+
+#: view/settings/general.php:878
+
+msgid ""
+"Show Add to Quote button only for Out of Stock\n"
+"                                        products"
+msgstr ""
+"Knop Toevoegen aan prijsopgave weergeven alleen voor Niet op voorraad\n"
+"                                        Producten"
+
+#: view/settings/general.php:895
+
+msgid "Third Party API key"
+msgstr "API-sleutel van derden"
+
+#: view/settings/general.php:903
+
+msgid ""
+"In case you want to get quote requests/orders via third party plugins, Turn "
+"On the below\n"
+"\t\t\t\t\tfunctionality & get the API key."
+msgstr ""
+"Als u offerteaanvragen / bestellingen via plug-ins van derden wilt "
+"ontvangen, schakelt u het onderstaande in\n"
+"\t\t\t\t\tfunctionaliteit & haal de API-sleutel op."
+
+#: view/settings/general.php:919
+
+msgid "Third Party Usage"
+msgstr "Gebruik door derden"
+
+#: view/settings/general.php:932
+
+msgid "Turn this ON, to get the API Key."
+msgstr "Schakel dit in om de API-sleutel te krijgen."
+
+#: view/settings/general.php:939
+
+msgid "Rest API Key"
+msgstr "Rest API-sleutel"
+
+#: view/settings/general.php:991
+
+msgid "Copied Successfully!"
+msgstr "Met succes gekopieerd!"
+
+#: view/settings/general.php:1008
+
+msgid "Error copying text"
+msgstr "Fout bij het kopiëren van tekst"
+
+#: view/settings/hide_addtocart_price.php:19
+msgid "Hide Price"
+msgstr "Verberg prijs"
+
+#: view/settings/hide_addtocart_price.php:21
+
+msgid ""
+"Enabling the Hide Price will automatically enable the Hide Add to Cart "
+"button on the Shop page and the Product Page."
+msgstr ""
+"Als u de prijs verbergen inschakelt, wordt automatisch de knop Toevoegen aan "
+"winkelwagentje verbergen op de winkelpagina en de productpagina ingeschakeld."
+
+#: view/settings/hide_addtocart_price.php:46
+
+msgid ""
+"Turn on to hide price in the Product page, Shop Page and Quote List Page"
+msgstr ""
+"Schakel deze optie in om de prijs te verbergen op de pagina Product, "
+"Winkelpagina en Lijst met offertes"
+
+#: view/settings/hide_addtocart_price.php:61
+
+msgid "Hide Add to Cart Button on Shop Page"
+msgstr "Verberg de knop Toevoegen aan winkelwagentje op de winkelpagina"
+
+#: view/settings/hide_addtocart_price.php:74
+
+msgid "Turn on hide add to cart button on shop page"
+msgstr ""
+"Schakel de knop Toevoegen aan winkelwagentje verbergen in op de winkelpagina"
+
+#: view/settings/hide_addtocart_price.php:89
+
+msgid "Hide Add to Cart Button on Product Page"
+msgstr "Verberg de knop Toevoegen aan winkelwagentje op de productpagina"
+
+#: view/settings/hide_addtocart_price.php:99
+
+msgid "Turn on hide add to cart button on product page."
+msgstr ""
+"Schakel de knop Toevoegen aan winkelwagentje verbergen in op de "
+"productpagina."
+
+#: view/settings/hide_addtocart_price.php:133
+#: view/settings/hide_addtocart_price.php:170
+
+msgid ""
+"Turn on & Select the Products for which the above settings should not be "
+"applied"
+msgstr ""
+"Schakel & Selecteer de producten waarvoor de bovenstaande instellingen niet "
+"moeten worden toegepast in"
+
+#: view/settings/hide_addtocart_price.php:154
+msgid "Exclude Products"
+msgstr "Producten uitsluiten"
+
+#: view/settings/hide_addtocart_price.php:339
+
+msgid ""
+"Select the roles for which the above settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selecteer de rollen waarvoor de bovenstaande instellingen moeten zijn\n"
+"                                        toegepast/niet."
+
+#: view/settings/template.php:10
+
+msgid ""
+"You can configure your email and sms/chat template here,\n"
+"                Make use of placeholders to\n"
+"                fill the fields dynamically."
+msgstr ""
+"U kunt uw e-mail en sms / chat sjabloon hier configureren,\n"
+"                Maak gebruik van tijdelijke aanduidingen om\n"
+"                Vul de velden dynamisch in."
+
+#: view/settings/template.php:19
+
+msgid ""
+"Please note that placeholders can be applied only to\n"
+"                the\n"
+"                email and chat/sms body."
+msgstr ""
+"Houd er rekening mee dat tijdelijke aanduidingen alleen kunnen worden "
+"toegepast op\n"
+"                de\n"
+"                e-mail en chat / sms lichaam."
+
+#: view/settings/template.php:28
+
+msgid ""
+"Also note, the @payment_link placeholder can only be\n"
+"                applied to\n"
+"                the email body sent after the quote is approved. You can "
+"also include HTML tags and\n"
+"                inline styles in the email body but the same wont be "
+"applicable to the chat/sms\n"
+"                body."
+msgstr ""
+"Houd er ook rekening mee dat de tijdelijke aanduiding voor @payment_link "
+"alleen kan zijn\n"
+"                toegepast op\n"
+"                De hoofdtekst van de e-mail die is verzonden nadat de "
+"offerte is goedgekeurd. U kunt ook HTML-tags opnemen en\n"
+"                Inline stijlen in de hoofdtekst van de e-mail, maar "
+"hetzelfde is niet van toepassing op de chat / sms\n"
+"                lichaam."
+
+#: view/settings/template.php:48
+
+msgid "Use Predefined Email Templates"
+msgstr "Vooraf gedefinieerde e-mailsjablonen gebruiken"
+
+#: view/settings/template.php:56
+
+msgid ""
+"Enable this option to use predefined email templates within the plugin. You "
+"can configure the email content below."
+msgstr ""
+"Schakel deze optie in om vooraf gedefinieerde e-mailsjablonen in de plug-in "
+"te gebruiken. U kunt de e-mailinhoud hieronder configureren."
+
+#: view/settings/template.php:90
+msgid "Email Template"
+msgstr "E-mail Template"
+
+#: view/settings/template.php:107 view/settings/template.php:153
+#: view/settings/template.php:195
+msgid "Preview Template"
+msgstr "Voorvertoning sjabloon"
+
+#: view/settings/template.php:144
+
+msgid ""
+"Rectangle Logo\n"
+"\t\t\t\t\t\t\t\t\t\t\tTemplate"
+msgstr ""
+"Rechthoekig logo\n"
+"\t\t\t\t\t\t\t\t\t\t\tSjabloon"
+
+#: view/settings/template.php:191
+
+msgid "Non Logo Template"
+msgstr "Niet-logo sjabloon"
+
+#: view/settings/template.php:228
+msgid "Company Logo"
+msgstr "Bedrijfslogo"
+
+#: view/settings/template.php:241 view/settings/template.php:249
+
+msgid "d-none"
+msgstr "d-none"
+
+#: view/settings/template.php:241
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: view/settings/template.php:260
+
+msgid "upload png or jpeg file"
+msgstr "PNG- of JPEG-bestand uploaden"
+
+#: view/settings/template.php:270
+
+msgid "Terms and Condition"
+msgstr "Algemene voorwaarden"
+
+#: view/settings/template.php:272
+
+msgid ""
+"Enable this option if you wish to include the terms and conditions in the "
+"email template."
+msgstr ""
+"Schakel deze optie in als u de algemene voorwaarden in de e-mailsjabloon "
+"wilt opnemen."
+
+#: view/settings/template.php:304
+
+msgid "Terms and Condition Content"
+msgstr "Algemene voorwaarden Inhoud"
+
+#: view/settings/template.php:319
+
+msgid "Quote Request Email Template: Sent to the Site Administrator"
+msgstr "E-mailsjabloon voor offerteaanvraag: verzonden naar de sitebeheerder"
+
+#: view/settings/template.php:326 view/settings/template.php:441
+#: view/settings/template.php:550 view/settings/template.php:660
+msgid "Email Subject"
+msgstr "E-mail onderwerp"
+
+#: view/settings/template.php:352
+msgid "Quote Request"
+msgstr "Offerte-aanvraag"
+
+#: view/settings/template.php:361 view/settings/template.php:475
+#: view/settings/template.php:584 view/settings/template.php:694
+msgid "Email Heading"
+msgstr "E-mailkop"
+
+#: view/settings/template.php:386 view/settings/template.php:500
+
+msgid "Your Quote Request has been received."
+msgstr "Uw offerteaanvraag is ontvangen."
+
+#: view/settings/template.php:396 view/settings/template.php:510
+#: view/settings/template.php:619 view/settings/template.php:729
+msgid "Email Body"
+msgstr "E-mail inhoud"
+
+#: view/settings/template.php:434
+
+msgid "Quote Requested Email Template: Sent to the Customer"
+msgstr "E-mailsjabloon voor aangevraagde offerte: verzonden naar de klant"
+
+#: view/settings/template.php:543
+
+msgid "Quote Approved Email Template: Sent to the Customer"
+msgstr "Offerte goedgekeurde e-mailsjabloon: verzonden naar de klant"
+
+#: view/settings/template.php:609
+
+msgid "Your Quote Request has been approved."
+msgstr "Uw offerteaanvraag is goedgekeurd."
+
+#: view/settings/template.php:653
+
+msgid "Quote Rejected Email Template: Sent to the Customer"
+msgstr "Offerte afgewezen e-mailsjabloon: verzonden naar de klant"
+
+#: view/settings/template.php:719
+
+msgid "Your Quote Request has been rejected."
+msgstr "Uw offerteaanvraag is afgewezen."
+
+#: view/settings/template.php:763
+
+msgid ""
+"Quote Requested SMS / Google Chat Template: Sent to the Site Administrator"
+msgstr ""
+"Offerte aangevraagd SMS / Google Chat-sjabloon: verzonden naar de "
+"sitebeheerder"
+
+#: view/settings/template.php:770
+
+msgid "SMS And Google Chat Body"
+msgstr "SMS en Google Chat Body"
+
+#: view/settings/template.php:812
+msgid "Title"
+msgstr "Titel"
+
+#: view/settings/template.php:813
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: view/settings/template.php:818
+msgid "Core Fields"
+msgstr "Standaard velden"
+
+#: view/settings/template.php:823
+msgid "Billing First Name"
+msgstr "Voornaam"
+
+#: view/settings/template.php:824
+
+msgid "@billing_first_name"
+msgstr "Voornaam"
+
+#: view/settings/template.php:828
+msgid "Billing Last Name"
+msgstr "Achternaam"
+
+#: view/settings/template.php:829
+
+msgid "@billing_last_name"
+msgstr "Achternaam"
+
+#: view/settings/template.php:833
+msgid "Billing Company"
+msgstr "Bedrijfsnaam"
+
+#: view/settings/template.php:834
+
+msgid "@billing_company"
+msgstr "Bedrijfsnaam"
+
+#: view/settings/template.php:838
+msgid "Billing Country"
+msgstr "Land"
+
+#: view/settings/template.php:839
+
+msgid "@billing_country"
+msgstr "Land"
+
+#: view/settings/template.php:842
+msgid "Billing Address 1"
+msgstr "Factuuradres 1"
+
+#: view/settings/template.php:843
+
+msgid "@billing_address_1"
+msgstr "@billing_address_1"
+
+#: view/settings/template.php:847
+msgid "Billing Address 2"
+msgstr "Factuuradres 2"
+
+#: view/settings/template.php:848
+
+msgid "@billing_address_2"
+msgstr "@billing_address_2"
+
+#: view/settings/template.php:851
+msgid "Billing City"
+msgstr "Plaats"
+
+#: view/settings/template.php:852
+
+msgid "@billing_city"
+msgstr "Plaats"
+
+#: view/settings/template.php:855
+msgid "Billing State"
+msgstr "Provincie"
+
+#: view/settings/template.php:856
+
+msgid "@billing_state"
+msgstr "Provincie"
+
+#: view/settings/template.php:859
+msgid "Billing Postcode"
+msgstr "Postcode"
+
+#: view/settings/template.php:860
+
+msgid "@billing_postcode"
+msgstr "Postcode"
+
+#: view/settings/template.php:863
+msgid "Billing Phone"
+msgstr "Telefoonnummer"
+
+#: view/settings/template.php:864
+
+msgid "@billing_phone"
+msgstr "Telefoonnummer"
+
+#: view/settings/template.php:867
+msgid "Billing Email"
+msgstr "Factuur E-mail Adres"
+
+#: view/settings/template.php:868
+
+msgid "@billing_email"
+msgstr "Factuur E-mail Adres"
+
+#: view/settings/template.php:871
+msgid "Order Items"
+msgstr "Bestelling Items"
+
+#: view/settings/template.php:872
+
+msgid "@order_items"
+msgstr "Bestelling Items"
+
+#: view/settings/template.php:875
+msgid "Payment Link"
+msgstr "Betaling"
+
+#: view/settings/template.php:876
+
+msgid "@payment_link"
+msgstr "Betaling"
+
+#: view/settings/template.php:879
+msgid "Customer Note"
+msgstr "Klanten-notitie"
+
+#: view/settings/template.php:880
+
+msgid "@customer_note"
+msgstr "Klanten-notitie"
+
+#: view/settings/template.php:883
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: view/settings/widget.php:11
+
+msgid "Show Quote List Icon"
+msgstr "Pictogram Lijst met offertes weergeven"
+
+#: view/settings/widget.php:31
+
+msgid "Quote List Color On Hover"
+msgstr "Quote List Kleur Bij aanwijzen"
+
+#: view/settings/widget.php:59
+
+msgid "Quote List Icon Type"
+msgstr "Type citaatlijstpictogram"
+
+#: view/settings/widget.php:77
+msgid "Float"
+msgstr "Float"
+
+#: view/settings/widget.php:78
+msgid "Fixed"
+msgstr "Vast"
+
+#: view/settings/widget.php:89
+
+msgid "Show Button Label Next to Icon"
+msgstr "Knoplabel weergeven naast pictogram"
+
+#: view/settings/widget.php:122
+msgid "Button Label"
+msgstr "Button Label"
+
+#: view/settings/widget.php:157
+
+msgid "Show List Pop Up on Hover"
+msgstr "Toon lijst pop-up op Hover"
+
+#. Plugin Name of the plugin/theme
+
+msgid "ELEX WooCommerce Request a Quote - Basic"
+msgstr "ELEX WooCommerce Vraag een offerte aan - Basic"
+
+#. Plugin URI of the plugin/theme
+
+msgid "https://elextensions.com/plugin/"
+msgstr "https://elextensions.com/plugin/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Create Request a Quote option for your WooCommerce products. You can also "
+"create and customize request a quote forms to be displayed on the frontend. "
+"The plugin will also send automated email notifications for quote "
+"submissions, approvals, and rejections."
+msgstr ""
+"Maak de optie Offerteaanvraag voor uw WooCommerce-producten. U kunt ook "
+"offerteformulieren maken en aanpassen die op de frontend worden weergegeven. "
+"De plug-in stuurt ook geautomatiseerde e-mailmeldingen voor het indienen, "
+"goedkeuren en afwijzen van offertes."
+
+#. Author of the plugin/theme
+msgid "ELEXtensions"
+msgstr "ELEXtensions"
+
+#. Author URI of the plugin/theme
+
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com"

@@ -10,10 +10,39 @@ class WPB_GQB_Shortcode_Handler {
 
     public function __construct() {
         add_shortcode( 'wpb-quote-button', array( $this, 'contact_form_button_shortcode' ) );
+        add_shortcode( 'wpb-quote-button-hook', array( $this, 'contact_form_button_hook' ) );
     }
 
     /**
-     * Shortcode handler
+     * Shortcode handler for the hook
+     *
+     * @param  array  $atts
+     * @param  string  $content
+     *
+     * @return string
+     */
+    public function contact_form_button_hook( $atts, $content = '' ) {
+        global $product;
+
+        if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+            wpcf7_enqueue_scripts();
+        }
+         
+        if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+            wpcf7_enqueue_styles();
+        }
+
+        if( isset($product) ){
+            ob_start();
+            echo do_action( 'wpb_gqb_custom_wc_hook' );
+            $content .= ob_get_clean();
+
+            return $content;
+        }
+    }
+
+    /**
+     * Shortcode handler for button
      *
      * @param  array  $atts
      * @param  string  $content
@@ -40,6 +69,14 @@ class WPB_GQB_Shortcode_Handler {
 
         global $post;
         
+        if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+            wpcf7_enqueue_scripts();
+        }
+         
+        if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+            wpcf7_enqueue_styles();
+        }
+
         $defaults = array(
             'id'                    => wpb_gqb_get_option( 'wpb_gqb_cf7_form_id', 'form_settings' ),
             'post_id'               => ( $post ? $post->ID : '' ),

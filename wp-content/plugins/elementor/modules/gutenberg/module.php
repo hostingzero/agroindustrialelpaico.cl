@@ -43,7 +43,13 @@ class Module extends BaseModule {
 						return false;
 					}
 
-					Plugin::$instance->db->set_is_elementor_page( $object->ID, false );
+					$document = Plugin::$instance->documents->get( $object->ID );
+
+					if ( ! $document ) {
+						return false;
+					}
+
+					$document->set_is_built_with_elementor( false );
 
 					return true;
 				},
@@ -88,21 +94,22 @@ class Module extends BaseModule {
 		<script id="elementor-gutenberg-button-switch-mode" type="text/html">
 			<div id="elementor-switch-mode">
 				<button id="elementor-switch-mode-button" type="button" class="button button-primary button-large">
-					<span class="elementor-switch-mode-on"><?php echo __( '&#8592; Back to WordPress Editor', 'elementor' ); ?></span>
+					<span class="elementor-switch-mode-on"><?php echo esc_html__( '&#8592; Back to WordPress Editor', 'elementor' ); ?></span>
 					<span class="elementor-switch-mode-off">
 						<i class="eicon-elementor-square" aria-hidden="true"></i>
-						<?php echo __( 'Edit with Elementor', 'elementor' ); ?>
+						<?php echo esc_html__( 'Edit with Elementor', 'elementor' ); ?>
 					</span>
 				</button>
 			</div>
 		</script>
 
 		<script id="elementor-gutenberg-panel" type="text/html">
-			<div id="elementor-editor"><a id="elementor-go-to-edit-page-link" href="#">
-					<div id="elementor-editor-button" class="button button-primary button-hero">
+			<div id="elementor-editor">
+				<div id="elementor-go-to-edit-page-link">
+					<button id="elementor-editor-button" class="button button-primary button-hero">
 						<i class="eicon-elementor-square" aria-hidden="true"></i>
-						<?php echo __( 'Edit with Elementor', 'elementor' ); ?>
-					</div>
+						<?php echo esc_html__( 'Edit with Elementor', 'elementor' ); ?>
+					</button>
 					<div class="elementor-loader-wrapper">
 						<div class="elementor-loader">
 							<div class="elementor-loader-boxes">
@@ -112,9 +119,10 @@ class Module extends BaseModule {
 								<div class="elementor-loader-box"></div>
 							</div>
 						</div>
-						<div class="elementor-loading-title"><?php echo __( 'Loading', 'elementor' ); ?></div>
+						<div class="elementor-loading-title"><?php echo esc_html__( 'Loading', 'elementor' ); ?></div>
 					</div>
-				</a></div>
+				</div>
+			</div>
 		</script>
 		<?php
 	}
